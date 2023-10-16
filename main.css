@@ -1,0 +1,78 @@
+html {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: no-repeat;
+    background: linear-gradient(rgb(255, 204, 204), rgb(255, 115, 115));
+    text-align: center;
+
+}
+
+h1 {
+    color: #333;
+}
+
+#container {
+    background-color: #ffffff;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.329);
+    margin: 20px;
+    padding: 10px;
+    max-width: 400px;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+#taskInput {
+    width: 70%;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+#addTask {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#message {
+    margin: 30px;
+
+}
+
+#completedTasks {
+    font-size: small;
+}
+
+.completed {
+    color: rgb(120, 120, 120);
+    text-decoration: line-through;
+}
+
+.trashcan {
+    color: rgb(192, 0, 0);
+    margin-left: 12px;
+    cursor: pointer;
+}
