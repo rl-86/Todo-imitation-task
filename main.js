@@ -56,7 +56,7 @@ button.addEventListener("click", function () {
 
     //Check if input is empty
     if (text.length == 0) {
-        info.innerText = "Input cannot be empty!";
+        info.innerText = "Input must not be empty";
         return;
     }
     else {
