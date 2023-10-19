@@ -1,6 +1,4 @@
-// JavaScript
-console.log("main.js is loaded...");
-
+//JS CODE
 
 //My HTML element variables
 const input = document.querySelector("#todoInput");
