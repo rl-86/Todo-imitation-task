@@ -80,7 +80,9 @@ button.addEventListener("click", function () {
     // Create span element that has a trashcan
     const trashcan = document.createElement("span");
     // Trashcan icon
-    trashcan.innerHTML = "&#x1f5d1;";
+    //trashcan.innerHTML = "&#x1f5d1;";
+    trashcan.innerHTML = '<img src="trashcan.png">';
+
 
     // X icon as trashcan
     //trashcan.innerHTML = "&#128942;";
